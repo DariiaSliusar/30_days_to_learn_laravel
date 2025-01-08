@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use http\Env\Request;
 use Illuminate\Support\Arr;
 
 class Job {
@@ -11,7 +10,7 @@ class Job {
         return [
             [
                 'id' => 1,
-                'title' => 'Dyrector',
+                'title' => 'Director',
                 'salary' => '$50,0000'
             ],
             [
